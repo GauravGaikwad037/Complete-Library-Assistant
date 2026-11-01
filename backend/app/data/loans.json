@@ -1,0 +1,32 @@
+[
+  {
+    "id": "loan-6ad3d61d",
+    "request_id": "req-bf4fac68",
+    "student_id": "student",
+    "student_name": "Student Scholar",
+    "book_id": "book-c849864b",
+    "book_title": "DocMind Supplementary Material",
+    "author": "Unknown Author",
+    "issue_date": "2026-10-29",
+    "loan_duration_days": 14,
+    "due_date": "2026-11-12",
+    "return_date": "2026-10-29",
+    "status": "Returned",
+    "is_overdue": false
+  },
+  {
+    "id": "loan-e01c492b",
+    "request_id": "req-demo-01",
+    "student_id": "student",
+    "student_name": "Student Scholar",
+    "book_id": "book-780db3fa",
+    "book_title": "DocMind Supplementary Material",
+    "author": "Gaurav",
+    "issue_date": "2026-10-24",
+    "loan_duration_days": 14,
+    "due_date": "2026-11-07",
+    "return_date": null,
+    "status": "Issued",
+    "is_overdue": false
+  }
+]

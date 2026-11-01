@@ -1,0 +1,82 @@
+[
+  {
+    "id": "act-928fc605",
+    "timestamp": "2026-11-01 09:20",
+    "type": "book_deleted",
+    "description": "Removed book 'Mitigating The Bias in Artificial Intelligence' and all its RAG chunks from library.",
+    "student_id": null,
+    "book_id": "book-d06ceadf"
+  },
+  {
+    "id": "act-3e8128e5",
+    "timestamp": "2026-11-01 09:08",
+    "type": "book_ingested",
+    "description": "Ingested document for 'Mitigating The Bias in Artificial Intelligence' (462 RAG chunks).",
+    "student_id": null,
+    "book_id": "book-d06ceadf"
+  },
+  {
+    "id": "act-f89f323e",
+    "timestamp": "2026-11-01 09:01",
+    "type": "book_deleted",
+    "description": "Removed book 'Artificial Intelligence: A Modern Approach' and all its RAG chunks from library.",
+    "student_id": null,
+    "book_id": "book-5808856c"
+  },
+  {
+    "id": "act-4b6d65c1",
+    "timestamp": "2026-11-01 08:44",
+    "type": "book_deleted",
+    "description": "Removed book 'DocMind Supplementary Material' and all its RAG chunks from library.",
+    "student_id": null,
+    "book_id": "book-c849864b"
+  },
+  {
+    "id": "act-1a76b46c",
+    "timestamp": "2026-11-01 08:43",
+    "type": "book_deleted",
+    "description": "Removed book 'HR Interview Preparation Guide' and all its RAG chunks from library.",
+    "student_id": null,
+    "book_id": "book-f3c93c3e"
+  },
+  {
+    "id": "act-4fea9497",
+    "timestamp": "2026-10-29 10:09",
+    "type": "book_returned",
+    "description": "Received return for 'DocMind Supplementary Material' from Student Scholar",
+    "student_id": "student",
+    "book_id": "book-c849864b"
+  },
+  {
+    "id": "act-a2056500",
+    "timestamp": "2026-10-29 10:09",
+    "type": "request_approved",
+    "description": "Approved request & issued 'DocMind Supplementary Material' to Student Scholar (Due: 2026-11-12)",
+    "student_id": "student",
+    "book_id": "book-c849864b"
+  },
+  {
+    "id": "act-9796749e",
+    "timestamp": "2026-10-29 10:09",
+    "type": "request_created",
+    "description": "Student Scholar submitted a borrow request for 'DocMind Supplementary Material'",
+    "student_id": "student",
+    "book_id": "book-c849864b"
+  },
+  {
+    "id": "act-d6e66ddb",
+    "timestamp": "2026-10-24 09:51",
+    "type": "book_issued",
+    "description": "Issued 'DocMind Supplementary Material' to Student Scholar (Due: 2026-11-07)",
+    "student_id": "student",
+    "book_id": "book-780db3fa"
+  },
+  {
+    "id": "act-b08f13fc",
+    "timestamp": "2026-10-29 09:51",
+    "type": "system_ready",
+    "description": "VidyaAI Library System initialized with verified Google Gemini RAG",
+    "student_id": null,
+    "book_id": null
+  }
+]

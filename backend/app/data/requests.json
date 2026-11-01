@@ -1,0 +1,16 @@
+[
+  {
+    "id": "req-bf4fac68",
+    "student_id": "student",
+    "student_name": "Student Scholar",
+    "book_id": "book-c849864b",
+    "book_title": "DocMind Supplementary Material",
+    "author": "Unknown Author",
+    "category": "Computer Science / AI",
+    "request_date": "2026-10-29 10:09",
+    "status": "Approved",
+    "rejection_reason": null,
+    "notes": "",
+    "updated_at": "2026-10-29 10:09"
+  }
+]

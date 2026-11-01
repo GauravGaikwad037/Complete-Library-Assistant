@@ -1,0 +1,580 @@
+[
+  {
+    "id": "book-ai-01",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell, Peter Norvig",
+    "year": 2020,
+    "edition": "4th Edition",
+    "isbn": "978-0134610993",
+    "call_number": "006.3 R967a",
+    "category": "Computer Science / AI",
+    "tags": ["AI", "Machine Learning", "Search Algorithms", "Robotics", "NLP", "Logic", "Agents"],
+    "summary": "The definitive comprehensive introduction to the theory and practice of artificial intelligence. Covers intelligent agents, uninformed and heuristic search, adversarial search, constraint satisfaction, knowledge representation, probabilistic reasoning, machine learning, deep learning, reinforcement learning, and AI ethics and safety.",
+    "table_of_contents": [
+      "1. Introduction to Intelligent Agents",
+      "2. Problem Solving and Heuristic Search",
+      "3. Adversarial Search and Games",
+      "4. Constraint Satisfaction Problems",
+      "5. Knowledge Representation and First-Order Logic",
+      "6. Probabilistic Reasoning and Bayesian Networks",
+      "7. Machine Learning and Neural Networks",
+      "8. Deep Learning and Natural Language Processing",
+      "9. Reinforcement Learning",
+      "10. Philosophy, Ethics, and the Future of AI"
+    ],
+    "key_concepts": [
+      "PEAS (Performance, Environment, Actuators, Sensors)",
+      "A* Search and Admissible Heuristics",
+      "Alpha-Beta Pruning",
+      "Markov Decision Processes (MDP)",
+      "Q-Learning & Policy Gradients",
+      "Bayesian Inference"
+    ],
+    "physical_location": {
+      "floor": 2,
+      "floor_name": "Level 2: Technology & Computing Wing",
+      "wing": "North Wing",
+      "aisle": "Aisle 3",
+      "rack": "Rack B",
+      "shelf": "Shelf 2",
+      "zone_color": "#06b6d4",
+      "map_coords": { "x": 160, "y": 210 }
+    },
+    "circulation": {
+      "total_copies": 6,
+      "available_copies": 4,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.",
+      "mla": "Russell, Stuart, and Peter Norvig. Artificial Intelligence: A Modern Approach. 4th ed., Pearson, 2020.",
+      "ieee": "S. Russell and P. Norvig, Artificial Intelligence: A Modern Approach, 4th ed. Pearson, 2020.",
+      "bibtex": "@book{russell2020artificial,\n  title={Artificial Intelligence: A Modern Approach},\n  author={Russell, Stuart and Norvig, Peter},\n  edition={4th},\n  year={2020},\n  publisher={Pearson}\n}"
+    },
+    "sample_chunks": [
+      "An intelligent agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
+      "A rational agent is one that acts so as to achieve the best outcome or, when there is uncertainty, the best expected outcome.",
+      "The A* search algorithm evaluates nodes by combining g(n), the cost to reach the node, and h(n), the estimated cost to get from the node to the goal: f(n) = g(n) + h(n)."
+    ]
+  },
+  {
+    "id": "book-cs-02",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "year": 2022,
+    "edition": "4th Edition",
+    "isbn": "978-0262046305",
+    "call_number": "005.1 C811i",
+    "category": "Computer Science / Algorithms",
+    "tags": ["CLRS", "Algorithms", "Data Structures", "Dynamic Programming", "Graph Theory", "Sorting"],
+    "summary": "Universally recognized as the bible of algorithms (CLRS). Provides in-depth theoretical analysis and practical pseudocode for fundamental data structures, divide-and-conquer algorithms, dynamic programming, greedy algorithms, graph traversal (Dijkstra, Bellman-Ford), maximum flow, and NP-completeness.",
+    "table_of_contents": [
+      "1. The Role of Algorithms in Computing",
+      "2. Getting Started & Asymptotic Analysis",
+      "3. Divide-and-Conquer & Master Theorem",
+      "4. Sorting and Order Statistics",
+      "5. Data Structures: Red-Black Trees, Hash Tables, Heaps",
+      "6. Advanced Design: Dynamic Programming and Greedy Algorithms",
+      "7. Graph Algorithms: BFS, DFS, MST, Shortest Paths",
+      "8. Selected Topics: Matrix Operations, NP-Completeness"
+    ],
+    "key_concepts": [
+      "Big-O, Omega, and Theta Notations",
+      "Master Theorem for Recurrences",
+      "Red-Black Tree Balance Invariants",
+      "Bellman-Ford & Dijkstra Shortest Path",
+      "Cook-Levin Theorem & NP-Completeness"
+    ],
+    "physical_location": {
+      "floor": 2,
+      "floor_name": "Level 2: Technology & Computing Wing",
+      "wing": "North Wing",
+      "aisle": "Aisle 3",
+      "rack": "Rack A",
+      "shelf": "Shelf 1",
+      "zone_color": "#06b6d4",
+      "map_coords": { "x": 120, "y": 210 }
+    },
+    "circulation": {
+      "total_copies": 8,
+      "available_copies": 2,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to Algorithms (4th ed.). MIT Press.",
+      "mla": "Cormen, Thomas H., et al. Introduction to Algorithms. 4th ed., MIT Press, 2022.",
+      "ieee": "T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to Algorithms, 4th ed. MIT Press, 2022.",
+      "bibtex": "@book{cormen2022introduction,\n  title={Introduction to Algorithms},\n  author={Cormen, Thomas H and Leiserson, Charles E and Rivest, Ronald L and Stein, Clifford},\n  edition={4th},\n  year={2022},\n  publisher={MIT Press}\n}"
+    },
+    "sample_chunks": [
+      "An algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values, as output.",
+      "Dynamic programming solves problems by combining the solutions to subproblems, storing results to avoid recalculating the same subproblem multiple times.",
+      "Dijkstra's algorithm solves the single-source shortest-paths problem on a weighted, directed graph G = (V, E) for the case in which all edge weights are nonnegative."
+    ]
+  },
+  {
+    "id": "book-cs-03",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "year": 2017,
+    "edition": "1st Edition",
+    "isbn": "978-1449373320",
+    "call_number": "005.74 K64d",
+    "category": "Computer Science / Distributed Systems",
+    "tags": ["Distributed Systems", "Databases", "Replication", "Partitioning", "Transactions", "Consensus", "Kafka"],
+    "summary": "An industry milestone exploration of data system architecture. Deep dives into storage engines (LSM-trees vs B-trees), data encoding, replication strategies (single-leader, multi-leader, leaderless), partitioning, transactions (ACID, isolation levels, serializability), and distributed consensus (Raft, Paxos).",
+    "table_of_contents": [
+      "1. Reliable, Scalable, and Maintainable Applications",
+      "2. Data Models and Query Languages",
+      "3. Storage and Retrieval: LSM-trees & B-trees",
+      "4. Encoding and Evolution (Protobuf, Avro, JSON)",
+      "5. Replication: Failover, Read-After-Write, Quorums",
+      "6. Partitioning and Sharding",
+      "7. Transactions: Read Committed, Snapshot Isolation, 2PC",
+      "8. The Trouble with Distributed Systems (Clocks, Split-brain)",
+      "9. Consistency and Consensus (Linearizability, Raft)",
+      "10. Batch and Stream Processing"
+    ],
+    "key_concepts": [
+      "LSM-Tree vs B-Tree write amplification",
+      "CAP Theorem and PACELC",
+      "Two-Phase Commit (2PC) vs Raft Consensus",
+      "Eventual Consistency & Vector Clocks",
+      "Write-Ahead Logging (WAL)"
+    ],
+    "physical_location": {
+      "floor": 2,
+      "floor_name": "Level 2: Technology & Computing Wing",
+      "wing": "North Wing",
+      "aisle": "Aisle 4",
+      "rack": "Rack C",
+      "shelf": "Shelf 4",
+      "zone_color": "#06b6d4",
+      "map_coords": { "x": 220, "y": 270 }
+    },
+    "circulation": {
+      "total_copies": 5,
+      "available_copies": 5,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Kleppmann, M. (2017). Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems. O'Reilly Media.",
+      "mla": "Kleppmann, Martin. Designing Data-Intensive Applications. O'Reilly Media, 2017.",
+      "ieee": "M. Kleppmann, Designing Data-Intensive Applications. O'Reilly Media, 2017.",
+      "bibtex": "@book{kleppmann2017designing,\n  title={Designing Data-Intensive Applications},\n  author={Kleppmann, Martin},\n  year={2017},\n  publisher={O'Reilly Media}\n}"
+    },
+    "sample_chunks": [
+      "Reliability means continuing to work correctly even when things go wrong (tolerating hardware or software faults, and human error).",
+      "A storage engine based on Log-Structured Merge-Trees (LSM-trees) appends all writes sequentially to a memtable, then flushes immutable SSTables to disk with background compaction.",
+      "Linearizability is a recency guarantee: once a read sees a new write, all subsequent reads must see that value or an even newer one."
+    ]
+  },
+  {
+    "id": "book-ai-04",
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "year": 2016,
+    "edition": "1st Edition",
+    "isbn": "978-0262035613",
+    "call_number": "006.31 G651d",
+    "category": "Computer Science / Deep Learning",
+    "tags": ["Deep Learning", "Neural Networks", "Backpropagation", "CNN", "RNN", "GANs", "Mathematics"],
+    "summary": "Widely known as the Deep Learning Bible by MIT Press. Covers mathematical foundations (linear algebra, probability, information theory, numerical computation), deep feedforward networks, regularization, optimization, convolutional networks, sequence modeling, and generative adversarial networks (GANs).",
+    "table_of_contents": [
+      "1. Applied Math and Machine Learning Basics",
+      "2. Deep Feedforward Networks",
+      "3. Regularization for Deep Learning",
+      "4. Optimization for Training Deep Models",
+      "5. Convolutional Networks (CNNs)",
+      "6. Sequence Modeling: Recurrent and Recursive Nets",
+      "7. Practical Methodology and Applications",
+      "8. Deep Generative Models: Autoencoders, GANs"
+    ],
+    "key_concepts": [
+      "Backpropagation & Automatic Differentiation",
+      "Vanishing and Exploding Gradients",
+      "Stochastic Gradient Descent (SGD) with Momentum and Adam",
+      "Batch Normalization & Dropout",
+      "Convolutional Filters and Invariance"
+    ],
+    "physical_location": {
+      "floor": 2,
+      "floor_name": "Level 2: Technology & Computing Wing",
+      "wing": "North Wing",
+      "aisle": "Aisle 3",
+      "rack": "Rack C",
+      "shelf": "Shelf 3",
+      "zone_color": "#06b6d4",
+      "map_coords": { "x": 160, "y": 270 }
+    },
+    "circulation": {
+      "total_copies": 4,
+      "available_copies": 1,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.",
+      "mla": "Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press, 2016.",
+      "ieee": "I. Goodfellow, Y. Bengio, and A. Courville, Deep Learning. MIT Press, 2016.",
+      "bibtex": "@book{goodfellow2016deep,\n  title={Deep Learning},\n  author={Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron},\n  year={2016},\n  publisher={MIT Press}\n}"
+    },
+    "sample_chunks": [
+      "Deep learning is a specific subfield of machine learning: a new take on learning representations from data that puts an emphasis on learning successive layers of increasingly meaningful representations.",
+      "The backpropagation algorithm allows information from the cost to flow backward through the network in order to compute the gradient with respect to every parameter.",
+      "Generative Adversarial Networks set up a minimax game between two networks: a generator that manufactures fake data and a discriminator that detects fakes."
+    ]
+  },
+  {
+    "id": "book-phy-05",
+    "title": "Quantum Computation and Quantum Information",
+    "author": "Michael A. Nielsen, Isaac L. Chuang",
+    "year": 2010,
+    "edition": "10th Anniversary Edition",
+    "isbn": "978-1107002173",
+    "call_number": "530.12 N669q",
+    "category": "Physics / Quantum Computing",
+    "tags": ["Quantum Computing", "Qubits", "Entanglement", "Shor's Algorithm", "Grover's Algorithm", "Quantum Gates"],
+    "summary": "Known affectionately as 'Mike and Ike', this is the definitive standard textbook on quantum computing. Explains quantum mechanics foundations, qubits, quantum teleportation, quantum circuits, Shor's factoring algorithm, Grover's quantum search, quantum error correction, and physical implementations of quantum computers.",
+    "table_of_contents": [
+      "1. Fundamental Concepts of Quantum Mechanics",
+      "2. Qubits, Superposition, and Entanglement",
+      "3. Quantum Circuits and Universal Gate Sets",
+      "4. Quantum Fourier Transform and Shor's Algorithm",
+      "5. Grover's Quantum Search Algorithm",
+      "6. Physical Realization of Quantum Processors",
+      "7. Quantum Noise and Quantum Operations",
+      "8. Quantum Error Correction & Fault Tolerance",
+      "9. Quantum Information Theory and Cryptography"
+    ],
+    "key_concepts": [
+      "Bloch Sphere Representation of Qubits",
+      "Bell States & Quantum Teleportation",
+      "Quantum Fourier Transform (QFT)",
+      "Shor's Exponential Speedup for Factoring",
+      "Grover's Quadratic Speedup for Unsorted Search",
+      "Shor Code & Quantum Error Correction"
+    ],
+    "physical_location": {
+      "floor": 3,
+      "floor_name": "Level 3: Physical Sciences & Mathematics",
+      "wing": "East Wing",
+      "aisle": "Aisle 1",
+      "rack": "Rack A",
+      "shelf": "Shelf 2",
+      "zone_color": "#a855f7",
+      "map_coords": { "x": 340, "y": 140 }
+    },
+    "circulation": {
+      "total_copies": 3,
+      "available_copies": 2,
+      "loan_period_days": 21,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information (10th anniversary ed.). Cambridge University Press.",
+      "mla": "Nielsen, Michael A., and Isaac L. Chuang. Quantum Computation and Quantum Information. Cambridge UP, 2010.",
+      "ieee": "M. A. Nielsen and I. L. Chuang, Quantum Computation and Quantum Information, 10th anniversary ed. Cambridge University Press, 2010.",
+      "bibtex": "@book{nielsen2010quantum,\n  title={Quantum Computation and Quantum Information},\n  author={Nielsen, Michael A and Chuang, Isaac L},\n  edition={10th anniversary},\n  year={2010},\n  publisher={Cambridge University Press}\n}"
+    },
+    "sample_chunks": [
+      "A qubit is a two-state quantum-mechanical system, such as the polarization of a single photon, capable of existing in arbitrary linear superpositions of |0> and |1>.",
+      "Quantum entanglement occurs when pairs or groups of particles cannot be described independently of the state of the others, even when separated by large distances.",
+      "Shor's algorithm can factor an integer N in polynomial time O((log N)^3), breaking RSA cryptography on a sufficiently large fault-tolerant quantum machine."
+    ]
+  },
+  {
+    "id": "book-phil-06",
+    "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+    "author": "Douglas R. Hofstadter",
+    "year": 1999,
+    "edition": "20th Anniversary Edition",
+    "isbn": "978-0465026562",
+    "call_number": "510.1 H713g",
+    "category": "Philosophy / Cognitive Science / Math",
+    "tags": ["GEB", "Incompleteness", "Self-Reference", "Strange Loops", "Cognitive Science", "Music", "Art"],
+    "summary": "Pulitzer Prize winning tour de force exploring the emergence of consciousness and cognition through self-reference, formal axiomatic systems, recursive patterns in Johann Sebastian Bach's fugues, M.C. Escher's impossible woodcuts, and Kurt Gödel's Incompleteness Theorems.",
+    "table_of_contents": [
+      "1. The Three-Part Invention & Introduction",
+      "2. The MU-puzzle and Formal Systems",
+      "3. Figure and Ground in Art and Logic",
+      "4. Consistency, Completeness, and Geometry",
+      "5. Recursive Structures and Processes",
+      "6. The Location of Meaning & Minds",
+      "7. The Propositional Calculus & Typographical Number Theory",
+      "8. Gödel's Theorem: Strange Loops and Tangled Hierarchies",
+      "9. Brains, Thoughts, and Artificial Intelligence"
+    ],
+    "key_concepts": [
+      "Gödel's First and Second Incompleteness Theorems",
+      "Strange Loops & Tangled Hierarchies",
+      "Isomorphism and Syntactic vs Semantic Meaning",
+      "Reductionism vs Holism in Minds",
+      "Turing Halting Problem and Self-Reference"
+    ],
+    "physical_location": {
+      "floor": 1,
+      "floor_name": "Level 1: Humanities & Philosophy",
+      "wing": "South Wing",
+      "aisle": "Aisle 2",
+      "rack": "Rack B",
+      "shelf": "Shelf 4",
+      "zone_color": "#10b981",
+      "map_coords": { "x": 260, "y": 380 }
+    },
+    "circulation": {
+      "total_copies": 4,
+      "available_copies": 4,
+      "loan_period_days": 21,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Hofstadter, D. R. (1999). Gödel, Escher, Bach: An Eternal Golden Braid (20th anniversary ed.). Basic Books.",
+      "mla": "Hofstadter, Douglas R. Gödel, Escher, Bach: An Eternal Golden Braid. Basic Books, 1999.",
+      "ieee": "D. R. Hofstadter, Gödel, Escher, Bach: An Eternal Golden Braid. Basic Books, 1999.",
+      "bibtex": "@book{hofstadter1999godel,\n  title={G{\\\"o}del, Escher, Bach: An Eternal Golden Braid},\n  author={Hofstadter, Douglas R},\n  year={1999},\n  publisher={Basic Books}\n}"
+    },
+    "sample_chunks": [
+      "The 'Strange Loop' phenomenon occurs whenever, by moving upwards or downwards through the levels of some hierarchical system, we unexpectedly find ourselves right back where we started.",
+      "Gödel showed that any consistent formal system capable of expressing elementary arithmetic contains propositions that are true but unprovable within the system itself.",
+      "Can machines think? Hofstadter suggests minds are emergent phenomena arising from intricate strange loops of symbolic self-representation within our neural substrate."
+    ]
+  },
+  {
+    "id": "book-lit-07",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "edition": "Harper Perennial Classic",
+    "isbn": "978-0060850524",
+    "call_number": "823.912 H986b",
+    "category": "Literature / Dystopian Fiction",
+    "tags": ["Dystopia", "Conditioning", "Soma", "Technology", "Ethics", "Classics", "Society"],
+    "summary": "A chilling prophecy of a technologically controlled World State where human reproduction is industrialized via the Bokanovsky Process, psychological conditioning replaces freedom, and synthetic pleasure (soma) eliminates dissatisfaction, confronting the tragic outsider John the Savage.",
+    "table_of_contents": [
+      "1. The Central London Hatchery and Conditioning Centre",
+      "2. Hypnopaedia and Caste Conditioning",
+      "3. The Mechanism of the World State",
+      "4. Bernard Marx and Lenina Crowne",
+      "5. The New Mexico Savage Reservation",
+      "6. John the Savage's Encounter with Civilization",
+      "7. The Confrontation with Mustapha Mond",
+      "8. The Hermitage and the Climax"
+    ],
+    "key_concepts": [
+      "Technological Totalitarianism vs Hedonistic Control",
+      "The Bokanovsky Process (Biological engineering)",
+      "Hypnopaedia (Sleep-learning & behavioral conditioning)",
+      "Soma as the Instrument of Voluntary Enslavement",
+      "Loss of Art, Truth, and Tragedy in Exchange for Comfort"
+    ],
+    "physical_location": {
+      "floor": 1,
+      "floor_name": "Level 1: Humanities & Literature",
+      "wing": "South Wing",
+      "aisle": "Aisle 4",
+      "rack": "Rack A",
+      "shelf": "Shelf 2",
+      "zone_color": "#10b981",
+      "map_coords": { "x": 380, "y": 380 }
+    },
+    "circulation": {
+      "total_copies": 7,
+      "available_copies": 5,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Huxley, A. (1932). Brave New World. Chatto & Windus.",
+      "mla": "Huxley, Aldous. Brave New World. Chatto & Windus, 1932.",
+      "ieee": "A. Huxley, Brave New World. Chatto & Windus, 1932.",
+      "bibtex": "@book{huxley1932brave,\n  title={Brave New World},\n  author={Huxley, Aldous},\n  year={1932},\n  publisher={Chatto \\& Windus}\n}"
+    },
+    "sample_chunks": [
+      "Community, Identity, Stability—such was the World State's motto.",
+      "A really efficient totalitarian state would be one in which the all-powerful executive of political bosses and their army of managers control a population of slaves who do not have to be coerced, because they love their servitude.",
+      "'Actual happiness always looks pretty squalid in comparison with the overcompensations for misery... stability isn't nearly so spectacular as instability.'"
+    ]
+  },
+  {
+    "id": "book-psy-08",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011,
+    "edition": "1st Edition",
+    "isbn": "978-0374275631",
+    "call_number": "153.42 K12t",
+    "category": "Psychology / Behavioral Economics",
+    "tags": ["Psychology", "Cognitive Biases", "System 1", "System 2", "Decision Making", "Prospect Theory"],
+    "summary": "Nobel Laureate Daniel Kahneman's masterpiece detailing the two modes of thought that drive the human mind: System 1 (fast, instinctive, emotional, prone to systematic cognitive illusions) and System 2 (slow, deliberative, logical, but mentally lazy). Covers loss aversion, framing effects, and prospect theory.",
+    "table_of_contents": [
+      "1. Two Systems: System 1 and System 2",
+      "2. Heuristics and Biases: Anchoring, Availability, Representativeness",
+      "3. Overconfidence and the Illusion of Validity",
+      "4. Choices: Prospect Theory and Loss Aversion",
+      "5. Two Selves: The Experiencing Self vs Remembering Self"
+    ],
+    "key_concepts": [
+      "System 1 (Intuitive) vs System 2 (Analytical)",
+      "Prospect Theory and Loss Aversion (losses hurt 2x more than gains feel good)",
+      "WYSIATI (What You See Is All There Is)",
+      "Anchoring Effect and Availability Cascade",
+      "Peak-End Rule in Human Memory"
+    ],
+    "physical_location": {
+      "floor": 1,
+      "floor_name": "Level 1: Humanities & Social Sciences",
+      "wing": "South Wing",
+      "aisle": "Aisle 1",
+      "rack": "Rack C",
+      "shelf": "Shelf 3",
+      "zone_color": "#10b981",
+      "map_coords": { "x": 160, "y": 380 }
+    },
+    "circulation": {
+      "total_copies": 6,
+      "available_copies": 3,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux.",
+      "mla": "Kahneman, Daniel. Thinking, Fast and Slow. Farrar, Straus and Giroux, 2011.",
+      "ieee": "D. Kahneman, Thinking, Fast and Slow. Farrar, Straus and Giroux, 2011.",
+      "bibtex": "@book{kahneman2011thinking,\n  title={Thinking, Fast and Slow},\n  author={Kahneman, Daniel},\n  year={2011},\n  publisher={Farrar, Straus and Giroux}\n}"
+    },
+    "sample_chunks": [
+      "System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control.",
+      "System 2 allocates attention to the effortful mental operations that demand it, including complex computations.",
+      "The confidence people have in their beliefs is not a measure of the quality of evidence, but of the coherence of the story that the mind has managed to construct."
+    ]
+  },
+  {
+    "id": "book-eng-09",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "edition": "1st Edition",
+    "isbn": "978-0132350884",
+    "call_number": "005.1 M383c",
+    "category": "Computer Science / Software Engineering",
+    "tags": ["Clean Code", "Software Engineering", "Refactoring", "SOLID Principles", "Unit Testing", "Architecture"],
+    "summary": "Classic guide to crafting readable, maintainable software. Covers meaningful naming, function design (doing one thing well), comments as failures to express intention, formatting, error handling, unit testing (FIRST principles), and object-oriented SOLID principles.",
+    "table_of_contents": [
+      "1. Meaningful Names and Intent",
+      "2. Functions: Small and Doing One Thing",
+      "3. Comments: Clarify or Remove",
+      "4. Formatting and Code Structure",
+      "5. Objects and Data Structures",
+      "6. Error Handling: Use Exceptions Rather than Return Codes",
+      "7. Unit Tests and Test-Driven Development (TDD)",
+      "8. Classes and the SOLID Principles",
+      "9. Smells and Heuristics"
+    ],
+    "key_concepts": [
+      "The Boy Scout Rule: Leave the campground cleaner than you found it",
+      "Single Responsibility Principle (SRP)",
+      "Functions should do one thing, do it well, and do it only",
+      "FIRST Unit Test Principles (Fast, Independent, Repeatable, Self-validating, Timely)",
+      "Law of Demeter"
+    ],
+    "physical_location": {
+      "floor": 2,
+      "floor_name": "Level 2: Technology & Computing Wing",
+      "wing": "North Wing",
+      "aisle": "Aisle 2",
+      "rack": "Rack B",
+      "shelf": "Shelf 1",
+      "zone_color": "#06b6d4",
+      "map_coords": { "x": 160, "y": 170 }
+    },
+    "circulation": {
+      "total_copies": 9,
+      "available_copies": 6,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Martin, R. C. (2008). Clean Code: A Handbook of Agile Software Craftsmanship. Prentice Hall.",
+      "mla": "Martin, Robert C. Clean Code: A Handbook of Agile Software Craftsmanship. Prentice Hall, 2008.",
+      "ieee": "R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship. Prentice Hall, 2008.",
+      "bibtex": "@book{martin2008clean,\n  title={Clean Code: A Handbook of Agile Software Craftsmanship},\n  author={Martin, Robert C},\n  year={2008},\n  publisher={Prentice Hall}\n}"
+    },
+    "sample_chunks": [
+      "Clean code is not written by following a set of rules; it is developed through the acquisition of craftsmanship and care.",
+      "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "The ratio of time spent reading versus writing code is well over 10 to 1. Making code easy to read actually makes it easier to write."
+    ]
+  },
+  {
+    "id": "book-bio-10",
+    "title": "Molecular Biology of the Cell",
+    "author": "Bruce Alberts, Rebecca Heald, Alexander Johnson, David Morgan",
+    "year": 2022,
+    "edition": "7th Edition",
+    "isbn": "978-0393884821",
+    "call_number": "571.6 A334m",
+    "category": "Biology / Genetics",
+    "tags": ["Molecular Biology", "Cell Biology", "DNA Replication", "Proteins", "CRISPR", "Signaling"],
+    "summary": "The gold standard textbook of cell biology. Details cell structure, genome maintenance, DNA replication and repair, transcription and translation, membrane transport, cell signaling cascades, cytoskeleton dynamics, cell cycle regulation, apoptosis, and stem cell biology.",
+    "table_of_contents": [
+      "1. Cells and Genomes",
+      "2. Cell Chemistry and Bioenergetics",
+      "3. Proteins and Enzyme Kinetics",
+      "4. DNA, Chromosomes, and Genomes",
+      "5. DNA Replication, Repair, and Recombination",
+      "6. From DNA to RNA to Protein",
+      "7. Control of Gene Expression and Epigenetics",
+      "8. Membrane Structure and Ion Transport",
+      "9. Intracellular Compartments and Protein Sorting",
+      "10. Cell Signaling and Cancer"
+    ],
+    "key_concepts": [
+      "Central Dogma of Molecular Biology",
+      "Epigenetic Regulation & Histone Modification",
+      "G-Protein Coupled Receptor (GPCR) Signaling",
+      "CRISPR-Cas9 Gene Editing Mechanisms",
+      "Chemiosmotic ATP Synthesis in Mitochondria"
+    ],
+    "physical_location": {
+      "floor": 3,
+      "floor_name": "Level 3: Biological & Life Sciences",
+      "wing": "West Wing",
+      "aisle": "Aisle 2",
+      "rack": "Rack B",
+      "shelf": "Shelf 2",
+      "zone_color": "#a855f7",
+      "map_coords": { "x": 240, "y": 140 }
+    },
+    "circulation": {
+      "total_copies": 5,
+      "available_copies": 2,
+      "loan_period_days": 14,
+      "status": "Available",
+      "borrowed_by": []
+    },
+    "citations": {
+      "apa": "Alberts, B., Heald, R., Johnson, A., Morgan, D., Raff, M., Roberts, K., & Walter, P. (2022). Molecular Biology of the Cell (7th ed.). W. W. Norton & Company.",
+      "mla": "Alberts, Bruce, et al. Molecular Biology of the Cell. 7th ed., W. W. Norton & Company, 2022.",
+      "ieee": "B. Alberts et al., Molecular Biology of the Cell, 7th ed. W. W. Norton & Company, 2022.",
+      "bibtex": "@book{alberts2022molecular,\n  title={Molecular Biology of the Cell},\n  author={Alberts, Bruce and Heald, Rebecca and Johnson, Alexander and Morgan, David},\n  edition={7th},\n  year={2022},\n  publisher={W. W. Norton \\& Company}\n}"
+    },
+    "sample_chunks": [
+      "All living cells on Earth store their hereditary information in the form of double-stranded DNA molecules.",
+      "Cells replicate their genetic information by template-directed polymerisation, copying the nucleotide sequences with extraordinary fidelity.",
+      "Signal transduction pathways convert extracellular stimuli into specific intracellular responses through cascades of phosphorylation and secondary messengers."
+    ]
+  }
+]

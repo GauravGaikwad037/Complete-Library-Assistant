@@ -1,0 +1,56 @@
+{
+  "floors": [
+    {
+      "id": 1,
+      "name": "Level 1: Humanities, Literature & Social Sciences",
+      "wings": ["South Wing", "Central Atrium"],
+      "color": "#10b981",
+      "zones": [
+        { "name": "Classics & Fiction", "x": 340, "y": 360, "w": 180, "h": 120, "color": "rgba(16, 185, 129, 0.15)" },
+        { "name": "Philosophy & Psychology", "x": 100, "y": 360, "w": 200, "h": 120, "color": "rgba(16, 185, 129, 0.15)" },
+        { "name": "Quiet Study Hall A", "x": 100, "y": 100, "w": 200, "h": 140, "color": "rgba(59, 130, 246, 0.15)" },
+        { "name": "Circulation Desk & Kiosks", "x": 340, "y": 100, "w": 180, "h": 140, "color": "rgba(245, 158, 11, 0.15)" }
+      ],
+      "study_rooms": [
+        { "id": "room-101", "name": "Atrium Seminar Room 101", "capacity": 8, "has_projector": true, "status": "Available" },
+        { "id": "room-102", "name": "Collaborative Pod 102", "capacity": 4, "has_projector": false, "status": "Reserved" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Level 2: Technology, Computing & Engineering",
+      "wings": ["North Wing", "East Wing"],
+      "color": "#06b6d4",
+      "zones": [
+        { "name": "Artificial Intelligence & Robotics", "x": 100, "y": 160, "w": 200, "h": 150, "color": "rgba(6, 182, 212, 0.15)" },
+        { "name": "Algorithms & Systems Architecture", "x": 320, "y": 160, "w": 200, "h": 150, "color": "rgba(6, 182, 212, 0.15)" },
+        { "name": "AI Innovation Lab & Desks", "x": 100, "y": 340, "w": 200, "h": 140, "color": "rgba(139, 92, 246, 0.15)" },
+        { "name": "Digital Rare Archives", "x": 320, "y": 340, "w": 200, "h": 140, "color": "rgba(236, 72, 153, 0.15)" }
+      ],
+      "study_rooms": [
+        { "id": "room-201", "name": "AI Cluster Workstation 201", "capacity": 6, "has_projector": true, "status": "Available" },
+        { "id": "room-202", "name": "Software Dev Pod 202", "capacity": 4, "has_projector": true, "status": "Available" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Level 3: Physical Sciences, Mathematics & Life Sciences",
+      "wings": ["East Wing", "West Wing"],
+      "color": "#a855f7",
+      "zones": [
+        { "name": "Quantum Mechanics & Mathematics", "x": 280, "y": 100, "w": 220, "h": 160, "color": "rgba(168, 85, 247, 0.15)" },
+        { "name": "Molecular Biology & Genetics", "x": 80, "y": 100, "w": 180, "h": 160, "color": "rgba(168, 85, 247, 0.15)" },
+        { "name": "Graduate Research Stacks", "x": 80, "y": 300, "w": 420, "h": 180, "color": "rgba(168, 85, 247, 0.1)" }
+      ],
+      "study_rooms": [
+        { "id": "room-301", "name": "Maths Defense Room 301", "capacity": 10, "has_projector": true, "status": "Available" }
+      ]
+    }
+  ],
+  "loan_policies": {
+    "undergraduate": { "max_books": 5, "duration_days": 14, "fine_per_day": 0.50, "renewal_limit": 2 },
+    "postgraduate": { "max_books": 10, "duration_days": 28, "fine_per_day": 0.50, "renewal_limit": 3 },
+    "faculty": { "max_books": 20, "duration_days": 90, "fine_per_day": 0.00, "renewal_limit": 5 },
+    "guest": { "max_books": 2, "duration_days": 7, "fine_per_day": 1.00, "renewal_limit": 1 }
+  }
+}
